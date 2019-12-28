@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Panda Savers</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+
+  <body>
+    <!--Html code-->
+    <!--Navigation bar-->
+    <nav>
+      <ul class="topNav" id="dropDownClick">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About">About</a></li>
+        <li  class="topNav-right"><a href="#SignUp">SignUp</a></li>
+        <li  class="topNav-right"><a href="#login">login</a></li>
+        <li class="dropDownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+      </ul>
+    </nav>
+
+<!--First section of the site-->
+<div class="container" id="section1Gradient">
+  <div class="row">
+    <div class="col-6">
+      <div class="leftSide-col">
+        <h1 class="larger">Panda savers</h1>
+        <h1 class="larger2">Signup and join us now to help us keeping all the pandas
+        around the world safe</h1>
+      </div>
+      <form>
+        <div class="leftSide-col">
+          <h2>Username</h2>
+          <input class="inputBox" type="text" name="username" placeholder="Username">
+          <h2>Password</h2>
+          <input class="inputBox" type="text" name="password" placeholder="Password">
+        </div>
+      </form>
+    </div>
+
+    <div class="col-6">
+      <div class="rightside-col">
+        <div class="videoContainer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zzFaPcQCXTs"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Second section of the site-->
+<header>
+  <h1 class="section2Header">Standars of Awesomeness</h1>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="img1.png">
+        </div>
+        <label>Chat with me</label>
+        <p>Chat with us to know all of the details that we remember right
+        now or may not rememeber, anyway you can chat with us to know the
+        details of our project of saving all of the pandas around the world
+        and make the ultimate panda paradise. So, are you interested?</p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="img1.png">
+        </div>
+        <label>About us</label>
+        <p>We are a group of people who loves pandas and think they are
+        very cute and it's just a big waste to leave them die in the wild.
+        So, we decided to build this orgnization to help those pity pandas
+        live for another day. So, we hope you people have the same feeling as us.</p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="img1.png">
+        </div>
+        <label>Our objectives</label>
+        <p>Our main objective is to save all of the pandas in the world.
+        And to do that we need a couple of things like a place to let them
+        live in and secure a good source of food. To do that we hope you donate
+        some cash to help us, got it?. This site is a joke so
+        don't take anything you read here seriously okay?</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <button class="learnMore">Learn More</button>
+    </div>
+  </div>
+</div>
+
+<!--javascript code-->
+<script type="text/javascript">
+/*change the class of the navbar whenwe are
+on the mobile state to open a drop Down Menu*/
+  function dropDownMenu(){
+    var x= document.getElementById("dropDownClick");
+    if(x.className === "topNav"){
+      x.className += " responsive";
+      /*change topNav to topNav.responsive*/
+    }else{
+      x.className = "topNav";
+    }
+  }
+</script>
+
+  </body>
+</html>
