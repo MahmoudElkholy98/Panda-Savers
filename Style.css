@@ -204,7 +204,7 @@ input[type="text"]{
   line-height: 1.2;
 }
 /*######### Mobile style ########*/
-@media only screen and (max-aspect-ratio: 13/10){
+@media only screen and (max-aspect-ratio: 11/10){
   .topNav li:not(:nth-child(1)){
     display: none;
   }
