@@ -1,8 +1,8 @@
 Disclaimer:
 I don't own any of the images or videos in this project.
 
- https://rintama2084.github.io/Panda-Savers/
-
+ https://mahmoudelkholy98.github.io/Panda-Savers/
+ 
 Update 1.1:
 Added the third section in the site and the footer.
 
